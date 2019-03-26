@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Enemy>
+  <EnemyName>Spherical</EnemyName>
+  <Attributes>
+    <Mesh>1</Mesh>
+    <Speed>2</Speed>
+    <HitPoints>25</HitPoints>
+    <Score>10</Score>
+    <Attack>3</Attack>
+    <MinPlayerScore>0</MinPlayerScore>
+    <SpawnRate>4</SpawnRate>
+  </Attributes>
+</Enemy>

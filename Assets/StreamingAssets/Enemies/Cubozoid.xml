@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Enemy>
+  <EnemyName>Cubozoid</EnemyName>
+  <Attributes>
+    <Mesh>0</Mesh>
+    <Speed>3</Speed>
+    <HitPoints>20</HitPoints>
+    <Score>10</Score>
+    <Attack>3</Attack>
+    <MinPlayerScore>0</MinPlayerScore>
+    <SpawnRate>3</SpawnRate>
+  </Attributes>
+</Enemy>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Modifier>
+  <ModifierName>Brute</ModifierName>
+  <Attributes>
+    <Color>green</Color>
+    <Speed>-1</Speed>
+    <HitPoints>10</HitPoints>
+    <Score>15</Score>
+    <Attack>2</Attack>
+  </Attributes>
+</Modifier>

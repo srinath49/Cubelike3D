@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2994759630279383294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7538723203138186458}
+  - component: {fileID: 7089197538759097155}
+  m_Layer: 0
+  m_Name: EnemyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7538723203138186458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994759630279383294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32.182014, y: -42.841675, z: -31.833298}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7089197538759097155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994759630279383294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8dc56119c9f05246ad55d3e3d9fdc6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesDirectory: Enemies
+  enemyModifiersDirectory: EnemyModifiers
+  enemyMeshObjects:
+  - {fileID: 5529491323944493127, guid: d6328958b9a4d6b46b94c519b65429e1, type: 3}
+  - {fileID: 1654923264050117615, guid: 62795b9cbdc0f2c4f940691d07397426, type: 3}
+  - {fileID: 3706664203317384258, guid: 3efa814e0a5cfda4d83014e6db0f70f4, type: 3}
+  - {fileID: 6905982624151183834, guid: 17b0fab5289a4854d86012ddc5020f67, type: 3}
+  defaultEnemyColor: {r: 0, g: 0.8501792, b: 1, a: 1}
+  enemyPrefab: {fileID: 3506104144908901548, guid: 75341d9a3e13e4240a36e7f1255d255b,
+    type: 3}
+  _playerManager: {fileID: 840080527535354434, guid: cd7801abf0a51f94a90ce05dc0dfa256,
+    type: 3}
+  _gameManager: {fileID: 7425882368163464393, guid: 6942fb5744bc31c43b05196faa690e50,
+    type: 3}
