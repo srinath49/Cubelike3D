@@ -39,6 +39,4 @@ Spawner_A can spawn: Enemy_A, Enemy_A_1, Enemy_A_2, Enemy_A_3
 Spawner_B can spawn: Enemy_B, Enemy_B_1, Enemy_B_2, Enemy_B_3
 Where enemies: Enemy_X_1, Enemy_X_2, and Enemy_X_3 are a modified version (or mutation) of enemy Enemy_X
 
-
-Adding Enemy Xml files to this folder will spawn new enemies in game.
-EnemyModifiers descripe mutations that will apply to all enemies, and the spawner will automatically spawn enemies with these mutations occasionally.
+The user can easily add more modifiers and enemy types to the game by adding the corresponding xml files to their respecting folders.
